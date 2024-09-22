@@ -30,7 +30,7 @@ Decon: ❌
 ‎ Slag: - > 1
  
 # Ancient Stove
-Cover: 50% > 30%
+Cover: 50% > 20%
 Decon: ❌
 ‎ Slag: - > 1
  
@@ -55,7 +55,7 @@ Decon: ❌
 ‎ Slag: - > 1
 
 # Ancient Microwave
-Cover: 50% > 25%
+Cover: 50% > 30%
 Decon: ❌
 ‎ Slag: - > 1
  
@@ -85,7 +85,7 @@ Decon: ❌ > ✔
 ‎ Slag: -
 
 # Ancient Wheel
-Cover: 50% > 20%
+Cover: 50% > 25%
 Decon: ❌
 ‎ Slag: - > 1
 
@@ -197,7 +197,7 @@ Cover: 50% > 40%
 ‎ Slag: - > 2
 
 # Ancient Macro-engine Block
-Cover: 50% > 20%
+Cover: 50% > 30%
 ‎ Slag: - > 2
 
 # Ancient Mega-Cannon Tripod
@@ -217,7 +217,7 @@ Cover: 50% > 40% (Now matches 'Security Turret' Cover)
 ‎ Slag: - > 2
 
 # Ancient Engine Block
-Cover: 50% > 25%
+Cover: 50% > 30%
 ‎ Slag: - > 1
 
 
