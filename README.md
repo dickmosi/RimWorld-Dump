@@ -1,2 +1,1 @@
-# RimWorld-Dump
-A place for miscellaneous XML patches of mine, and other RimWorld Stuff.
+Feel free to use any of this, with or without credit.
