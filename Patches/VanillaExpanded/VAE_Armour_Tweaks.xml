@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- !!! Requires Vanilla Armour Expanded, must be loaded after it !!! -->
+
+<!--
+- Removes gloves, boots, shoulder pads, light plate armor, chest plate, balaclava, hazmat stuff and ghillie stuff + related research.
+- Merges Quilted Vest and Gambeson into Complex Clothing and removes their old research.
+- Buffs Plate Helmet.
+-->
+
+<!-- ## Removals ## -->
+<!-- Category -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingCategoryDef[defName="VAE_BootsAndGloves"]</xpath>
+</Operation>
+
+<!-- Pawnkind/Faction -->
+<!-- If you're getting ApparelRequired errors, you need to add to these -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+	<li>Royalty</li>
+	</mods>
+<match Class="PatchOperationSequence">
+<operations>
+	<li Class="PatchOperationRemove">
+		<xpath>Defs/PawnKindDef[@Name="ImperialFighterBase"]/apparelRequired</xpath>
+	</li>
+	<li Class="PatchOperationRemove">
+		<xpath>Defs/PawnKindDef[@Name="CataphractBase"]/apparelRequired</xpath>
+	</li>
+</operations>
+</match>
+</Operation>
+
+<!-- Plate Armor -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_Chestplate"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]</xpath>
+</Operation>
+
+<!-- Marine -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Handwear_MarineGloves"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Footwear_MarineBoots"]</xpath>
+</Operation>
+
+<!-- Balaclava -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ResearchProjectDef[defName="VAE_MilitaryClothing"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]</xpath>
+</Operation>
+
+<!-- Ghillie -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ResearchProjectDef[defName="VAE_MlitaryCamouflage"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_GhillieSuit"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Headgear_GhillieHood"]</xpath>
+</Operation>
+
+<!-- Hazmat -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ResearchProjectDef[defName="VAE_HazardProtection"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_HAZMATSuit"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="VAE_Headgear_HAZMATMask"]</xpath>
+</Operation>
+
+<!-- Leather Tanning -->
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ResearchProjectDef[defName="VAE_LeatherTanning"]</xpath>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson"]/recipeMaker/researchPrerequisite</xpath>
+	<value>
+		<researchPrerequisite>ComplexClothing</researchPrerequisite>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]/recipeMaker/researchPrerequisite</xpath>
+	<value>
+		<researchPrerequisite>ComplexClothing</researchPrerequisite>
+	</value>
+</Operation>
+
+<!-- ## Tweaks ## -->
+<!-- Plate Helmet, sits between Simple and Flak helm now. Balanced by shooting debuff. -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+	<value>
+		<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+	</value>
+</Operation>
+</Patch>
