@@ -5,89 +5,89 @@ Decon = Deconstructable? True or False
 ### SMALL JUNK (1x1) aka Walkable Junk
 
 # Ancient Shopping Cart
-Cover: 50%	> 15%
-Decon: ❌	> ✔
+Cover: 50% > 15%
+Decon: ❌ > ✔
 ‎ Slag: -
  
 # Ancient Postbox
-Cover: 50%	> 20%
-Decon: ❌	> ✔
+Cover: 50% > 20%
+Decon: ❌ > ✔
 ‎ Slag: -
  
-# Ancient Vending Machine !!!!!!!
+# Ancient Vending Machine
 Cover: 50%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
-# Ancient Air Conditioner !!!!!!!
+# Ancient Air Conditioner
 Cover: 50%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
  
 # Ancient Kitchen Sink
-Cover: 50%	> 20%
+Cover: 50% > 20%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
  
 # Ancient Stove
-Cover: 50%	> 30%
+Cover: 50% > 30%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
  
-# Ancient Oven !!!!!!!
-Cover: 50%	> 40%
+# Ancient Oven
+Cover: 50% > 40%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
-# Ancient ATM !!!!!!!
+# Ancient ATM
 Cover: 50%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
-# Ancient Washing Machine !!!!!!!
-Cover: 50%	> 40%
+# Ancient Washing Machine
+Cover: 50% > 40%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
 # Ancient Hydrant
-Cover: 50%	> 30%
+Cover: 50% > 30%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
 # Ancient Microwave
-Cover: 50%	> 25%
+Cover: 50% > 25%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
  
 # Ancient Toilet
-Cover: 50%	> 20%
-Decon: ❌	> ✔
+Cover: 50% > 20%
+Decon: ❌ > ✔
 ‎ Slag: -
 
-# Ancient Refrigerator !!!!!!!
-Cover: 50%	> 40%
+# Ancient Refrigerator
+Cover: 50% > 40%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
 # Ancient Small Crate (This is the building that started it all. 50% wtf?????)
-Cover: 50%	> 10%
-Decon: ❌	> ✔
+Cover: 50% > 10%
+Decon: ❌ > ✔
 ‎ Slag: -
 
 # Ancient Long Crate
-Cover: 50%	> 20%
-Decon: ❌	> ✔
+Cover: 50% > 20%
+Decon: ❌ > ✔
 ‎ Slag: -
 
 # Ancient Large Crate
-Cover: 50%	> 30%
-Decon: ❌	> ✔
+Cover: 50% > 30%
+Decon: ❌ > ✔
 ‎ Slag: -
 
 # Ancient Wheel
-Cover: 50%	> 20%
+Cover: 50% > 20%
 Decon: ❌
-‎ Slag: -	> 1
+‎ Slag: - > 1
 
 # Ancient Fence
 (No Changes)
@@ -96,17 +96,17 @@ Decon: ❌
 (No Changes)
 
 # Ancient Pipes
-Cover: 50%	> 20%
+Cover: 50% > 20%
 Decon: ✔
 ‎ Slag: -
 
 # Ancient Mech Drop Beacon
-Cover: 15%	> 20% (Now matches 'Mech Drop Beacon' Cover)
+Cover: 15% > 20% (Now matches 'Mech Drop Beacon' Cover)
 Decon: ✔
 ‎ Slag: -
 
 # Ancient Ship Beacon
-Cover: 30%	> 15% (Now matches 'Ship Beacon' Cover)
+Cover: 30% > 15% (Now matches 'Ship Beacon' Cover)
 Decon: ✔
 ‎ Slag: -
 
@@ -117,63 +117,63 @@ Decon: ✔
 
 # Ancient Giant Wheel [Moved, was walkable.]
 Cover: 50%
-‎ Slag: -	> 2
+‎ Slag: - > 2
 
 # Ancient Car
 Cover: 50%
-‎ Slag: 2	> 4
+‎ Slag: 2 > 4
 
 # Ancient Truck
 Cover: 50%
-‎ Slag: 2	> 4
+‎ Slag: 2 > 4
 
 # Ancient Troop Carrier (Jeep)
 Cover: 50%
-‎ Slag: 2	> 5
+‎ Slag: 2 > 5
 
-# Ancient Car Frame !!!!!!!
-Cover: 50%	> 30%
+# Ancient Car Frame
+Cover: 50% > 30%
 ‎ Slag: 2
 
 # Ancient Warwalker Torso
-Cover: 50%	> 75%
-‎ Slag: 4	> 6
+Cover: 50% > 75%
+‎ Slag: 4 > 6
 
 # Ancient Rusted Dropship
-Cover: 50%	> 75%
-‎ Slag: 4	> 5
+Cover: 50% > 75%
+‎ Slag: 4 > 5
 
 # Ancient Warwalker Claw
 Cover: 50%
-‎ Slag: 1	> 3
+‎ Slag: 1 > 3
  
 # Ancient Warwalker Leg
 Cover: 50%
-‎ Slag: 1	> 4
+‎ Slag: 1 > 4
 
-# Ancient Mini Warsprinter Remains !!!!!!!
+# Ancient Mini Warsprinter Remains
 Cover: 50%
-‎ Slag: 4	> 5
+‎ Slag: 4 > 5
  
-# Ancient Warspider Remains !!!!!!!
-Cover: 50%	> 75%
+# Ancient Warspider Remains
+Cover: 50% > 75%
 ‎ Slag: 6
 
 # Ancient Pipeline Section
-Cover: 50%	> 40%
-‎ Slag: 6	> 2
+Cover: 50% > 40%
+‎ Slag: 6 > 2
 
 # Ancient Warwalker Foot
 Cover: 50%
-‎ Slag: 6	> 2
+‎ Slag: 6 > 2
 
-# Ancient Ruined Tank !!!!!!!
-Cover: 50%	> 55%
+# Ancient Ruined Tank
+Cover: 50% > 55%
 ‎ Slag: 6
 
-# Ancient Ruined APC !!!!!!!
-Cover: 50%	> 55%
-‎ Slag: 6	> 5
+# Ancient Ruined APC
+Cover: 50% > 55%
+‎ Slag: 6 > 5
 
 # Ancient Warwalker Shell
 (No Changes)
@@ -184,41 +184,41 @@ Cover: 50%
 Cover: 50%
 ‎ Slag: 6
 
-# Ancient Dropship Engine !!!!!!!
+# Ancient Dropship Engine
 Cover: 50%
-‎ Slag: 6	> 5
+‎ Slag: 6 > 5
 
 # Ancient Pod Car
 Cover: 50%
-‎ Slag: 6	> 4
+‎ Slag: 6 > 4
 
 # Ancient Tank Trap
-Cover: 50%	> 40%
-‎ Slag: -	> 2
+Cover: 50% > 40%
+‎ Slag: - > 2
 
 # Ancient Macro-engine Block
-Cover: 50%	> 20%
-‎ Slag: -	> 2
+Cover: 50% > 20%
+‎ Slag: - > 2
 
 # Ancient Mega-Cannon Tripod
 Cover: 35%
-‎ Slag: -	> 2
+‎ Slag: - > 2
 
 # Ancient Mega-Cannon Barrel
-Cover: 15%	> 25%
-‎ Slag: -	> 2
+Cover: 15% > 25%
+‎ Slag: - > 2
 
 # Ancient [shipping] Container
 Cover: 100%
-‎ Slag: -	> 4
+‎ Slag: - > 4
 
 # Ancient Security Turret
-Cover: 50%	> 40% (Now matches 'Security Turret' Cover)
-‎ Slag: -	> 2
+Cover: 50% > 40% (Now matches 'Security Turret' Cover)
+‎ Slag: - > 2
 
 # Ancient Engine Block
-Cover: 50%	> 25%
-‎ Slag: -	> 1
+Cover: 50% > 25%
+‎ Slag: - > 1
 
 
 
@@ -227,31 +227,31 @@ Cover: 50%	> 25%
 
 # Ancient System Rack
 Cover: 40%
-Decon: ✔	> ❌
-‎ Slag: -	> 1
+Decon: ✔ > ❌
+‎ Slag: - > 1
 
 # Ancient Equipment Blocks
-Cover: 50%	> 40% (Similiar sprite to the 'Battery', now matches Cover.)
-Decon: ✔	> ❌
-‎ Slag: -	> 2
+Cover: 50% > 40% (Similiar sprite to the 'Battery', now matches Cover.)
+Decon: ✔ > ❌
+‎ Slag: - > 2
 
 # Ancient Machine
-Cover: 50%	> 75%
-Decon: ✔	> ❌
-‎ Slag: -	> 3
+Cover: 50% > 75%
+Decon: ✔ > ❌
+‎ Slag: - > 3
 
 # Ancient Storage Cylinder
 Cover: 50%
-Decon: ✔	> ❌
-‎ Slag: -	> 1
+Decon: ✔ > ❌
+‎ Slag: - > 1
 
 # Ancient Bed
 (No Changes)
 
 # Ancient Display Bank
 Cover: 50%
-Decon: ✔	> ❌
-‎ Slag: -	> 2
+Decon: ✔ > ❌
+‎ Slag: - > 2
 
 # Ancient Locker Bank
 (No Changes)
@@ -260,12 +260,12 @@ Decon: ✔	> ❌
 (No Changes)
 
 # Ancient Military Crate
-Cover: 30%	> 20%
+Cover: 30% > 20%
 Decon: ✔
 ‎ Slag: -
 
 # Ancient Spacer Crate
-Cover: 30%	> 20%
+Cover: 30% > 20%
 Decon: ✔
 ‎ Slag: -
 
@@ -273,9 +273,9 @@ Decon: ✔
 (No Changes)
 
 # Ancient Generator
-Cover: 50%	> 75% (Now matches other generators)
-Decon: ✔	> ❌
-‎ Slag: -	> 3
+Cover: 50% > 75% (Now matches other generators)
+Decon: ✔ > ❌
+‎ Slag: - > 3
 
 # Ancient Operating Table
 (No Changes)
@@ -294,29 +294,29 @@ Decon: ✔	> ❌
 # Ancient Mech Gestator
 Cover: 50%
 Decon: ❌
-‎ Slag: -	> 2
+‎ Slag: - > 2
 
 # Ancient Large Mech Gestator
 Cover: 50%
 Decon: ❌
-‎ Slag: -	> 4
+‎ Slag: - > 4
 
 # Ancient Basic Recharger
-Cover: 50%	> 30% (Now matches 'Mech recharger')
+Cover: 50% > 30% (Now matches 'Mech recharger')
 Decon: ❌
-‎ Slag: -	> 2
+‎ Slag: - > 2
 
 # Ancient Standard Recharger
-Cover: 50%	> 30% (Now matches 'Large mech recharger')
+Cover: 50% > 30% (Now matches 'Large mech recharger')
 Decon: ❌
-‎ Slag: -	> 3
+‎ Slag: - > 3
 
 # Ancient Toxifier Generator
-Cover: 50%	> 75% (Now matches 'Toxifier generator')
+Cover: 50% > 75% (Now matches 'Toxifier generator')
 Decon: ❌
-‎ Slag: -	> 3
+‎ Slag: - > 3
 
 # Ancient Band Node
-Cover: 50%	> 40% (Now matches 'Band node')
+Cover: 50% > 40% (Now matches 'Band node')
 Decon: ❌
-‎ Slag: -	> 2
+‎ Slag: - > 2
