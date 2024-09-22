@@ -10,7 +10,7 @@ Decon: ❌ > ✔
 ‎ Slag: -
  
 # Ancient Postbox
-Cover: 50% > 20%
+Cover: 50%
 Decon: ❌ > ✔
 ‎ Slag: -
  
