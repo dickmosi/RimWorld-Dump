@@ -12,7 +12,7 @@ Decon: ❌ > ✔
 # Ancient Postbox
 Cover: 50%
 Decon: ❌ > ✔
-‎ Slag: -
+‎ Slag: - > 1
  
 # Ancient Vending Machine
 Cover: 50%
