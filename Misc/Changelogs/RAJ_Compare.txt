@@ -160,7 +160,7 @@ Cover: 50% > 75%
 ‎ Slag: 6
 
 # Ancient Pipeline Section
-Cover: 50% > 40%
+Cover: 50% > 30%
 ‎ Slag: 6 > 2
 
 # Ancient Warwalker Foot
